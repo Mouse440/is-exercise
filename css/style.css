@@ -1,0 +1,48 @@
+
+#view-window {
+    height: 500px;
+}
+
+#menu {
+    height: 100%;
+    background-color: #3b3b3b;
+    padding: 0;
+}
+
+.navbar {
+  border-radius: 0;
+  border: 0;
+}
+
+#menu .navbar-nav li{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+#menu .navbar-nav li a {
+    font-size: 24px;
+    padding: 30px;
+    background-color: #616161;
+    color: #ffffff;
+}
+
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
