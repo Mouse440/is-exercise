@@ -1,0 +1,6 @@
+{
+    "title": "First page",
+    "description" : "This is first page of this Single Page App.",
+    "helpText" : "This is the help section for first page",
+    "fruits" : ["Apple","Pear","Banana","Orange","Mango","Peach"]
+}

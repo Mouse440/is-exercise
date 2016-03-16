@@ -1,0 +1,14 @@
+<div id="main-content" class="col-sm-9">
+    <h2>{{content.title}}</h2>
+    <p>{{content.description}}</p>
+    <div ng-repeat="fruitName in content.fruits">
+        <div class="fruit col-sm-2">
+            <p>{{fruitName}}</p>
+        </div>
+    </div>
+</div>
+<div id="helper-content" class="col-sm-3">
+   <h3>Help...</h3>
+   <p>{{content.helpText}}</p>
+</div>
+    
