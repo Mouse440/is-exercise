@@ -1,15 +1,27 @@
 #content {
   height: 100%;
-}
-
-#content.ng-enter{
   opacity: 1;
-  background-color: red;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
+#content.ng-enter.ng-enter-active,
 #content.ng-leave{
+  opacity: 1;
+  position: absolute;
+}
+
+#content.ng-leave.ng-leave-active,
+#content.ng-enter{
   opacity: 0;
-  background-color: blue;
+}
+
+#content-wrapper {
+  position: relative;
+  height: 100%;
+  padding: 0;
 }
 
 #helper-content {
