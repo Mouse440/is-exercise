@@ -109,3 +109,41 @@
     padding-bottom: 12px;
   }
 }
+
+/* mobile view */
+@media (max-width: 767px) {
+  #content {
+    padding: 0;  
+  }
+  
+  .fruit {
+    margin: 10px 0;
+  }
+  
+  #helper-content {
+    position: fixed;
+    bottom: 0;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    height: inherit;
+    max-height: 115px;
+    overflow-y: scroll;
+  }
+  
+  #main-content {
+    padding-left: 15px;
+    margin-bottom: 125px;
+  }
+  
+  #menu {
+    background-color: #ffffff;
+  }
+  
+  .selected {
+    right: inherit;
+  }
+  
+  #view-window {
+    height: 100%;
+  }
+}
